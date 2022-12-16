@@ -18,12 +18,12 @@ while i <= len(b)-1:
 		print(" ", end="")
 	elif a[o] == "#":
 		print(b[i], end="")
+		i=i+1
 	elif a[o] == "\n":
 		print()
 	elif a[o] == "e":
 		print(" ")
 		o = -1
 	o = o  +1
-	i=i+1
 
 
