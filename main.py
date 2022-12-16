@@ -20,7 +20,7 @@ for i in b:
 	elif a[o] == "\n":
 		print("\n", end="")
 	elif a[o] == "e":
-		print(i)
+		print(i, end="")
 		o = -1
 	o = o + 1
 
